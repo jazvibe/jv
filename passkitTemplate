@@ -12,16 +12,19 @@
         "type" : "object",
         "properties" : {
             "couponGroupId" : {
-                "type" : "string"
+                "type" : "string",
+                "required" : true
             },
             "data_coupon" : {
                 "type" : "string"
             },
             "template" : {
-                "type" : "string"
+                "type" : "string",
+                "required" : true
             },
             "email" : {
-                "type" : "string"
+                "type" : "string",
+                "required" : true
             }
         }
     },
